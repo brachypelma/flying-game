@@ -1,1 +1,10 @@
 @use 'base/normalize';
+
+@use 'components/board';
+@use 'components/coin';
+@use 'components/footer';
+@use 'components/grid';
+@use 'components/header';
+@use 'components/hidden';
+@use 'components/ship';
+@use 'components/start-button';

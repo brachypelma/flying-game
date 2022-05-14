@@ -1,0 +1,20 @@
+@use '../base/variables';
+
+.footer {
+	text-align: center;
+	font-family: variables.$subheader;
+	padding-top: 0.5rem;
+}
+
+.footer__item {
+	padding: 0.5rem;
+}
+
+.footer__title {
+	font-size: 1.25rem;
+}
+
+.footer__stats {
+	display: flex;
+	justify-content: center;
+}

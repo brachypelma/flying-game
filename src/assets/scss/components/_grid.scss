@@ -1,0 +1,16 @@
+@use '../base/variables';
+
+.grid {
+	display: flex;
+	inset: 0;
+	position: absolute;
+	z-index: 2;
+}
+
+.grid__cell {
+	flex: 0 0 0.51%;
+}
+
+.grid__end {
+	background: variables.$color;
+}

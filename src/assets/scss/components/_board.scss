@@ -1,0 +1,9 @@
+.board {
+	aspect-ratio: 5 / 3;
+	background: #123;
+	border: 4px solid #eee;
+	border-radius: 8px;
+	overflow: hidden;
+	position: relative;
+	width: min(90vw, 800px);
+}

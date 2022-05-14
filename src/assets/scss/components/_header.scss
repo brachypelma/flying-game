@@ -1,0 +1,22 @@
+@use '../base/variables';
+
+.header {
+	text-align: center;
+}
+
+.header__item {
+	font-family: variables.$subheader;
+	font-size: 1.25rem;
+	padding: 1rem;
+}
+
+.header__stats {
+	display: flex;
+	justify-content: center;
+}
+
+.header__title {
+	font-family: variables.$header;
+	font-size: 4rem;
+	margin: 1rem;
+}

@@ -1,14 +1,16 @@
+@use './fonts';
 @use './variables';
 
-html, body {
-	font-family: variables.$font;
-	font-size: variables.$size;
+* {
+	box-sizing: border-box;
 }
 
 body {
 	background: variables.$background;
 	color: variables.$color;
 	display: grid;
+	font-family: variables.$font;
+	font-size: variables.$size;
 	margin: 0;
 	place-items: center;
 }

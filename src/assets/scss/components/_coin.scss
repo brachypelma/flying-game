@@ -1,0 +1,21 @@
+.coin {
+	aspect-ratio: 1;
+	background: yellow;
+	border: 2px solid goldenrod;
+	border-radius: 50%;
+	box-shadow: 0 0 6px yellow;
+	display: grid;
+	place-items: center;
+	position: absolute;
+	width: 5%;
+	z-index: 4;
+
+	&::before {
+		color: goldenrod;
+		content: '$';
+		font-family: courier, monospace;
+		font-size: 1.5rem;
+		font-weight: bold;
+		line-height: 1.1rem;
+	}
+}
